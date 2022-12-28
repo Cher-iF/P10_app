@@ -1,0 +1,4 @@
+turns, dst_city, or_city, dep_date, ret_date, budget, success
+wanna book a flight from algeria to morocco in 23/11/ to 12/12 | On what date would you like to start your travel? | 23/11 | What will be the budget for your trip? | 1200, morocco, algeria, 2023-11-23, 12 / 12, 1200.0, 1
+wanna book a flight | Where would you like to travel to? | paris | Where would you like to travel to? | algiers | On what date would you like to start your travel? | 11/12 | On what date would you like to end your travel? | 23/12 | What will be the budget for your trip? | 2300, paris, algiers, 2023-11-12, 2023-12-23, 2300.0, 1
+i want to travel | Where would you like to travel to? | madagascar | Where would you like to travel to? | paris | On what date would you like to start your travel? | 12/12/2023 | On what date would you like to end your travel? | 23/12/2023 | What will be the budget for your trip? | 345, madagascar, paris, 2023-12-12, 2023-12-23, 345.0, 0
