@@ -89,7 +89,7 @@ async def messages(req: Request) -> Response:
 def init_func(argv):
     app = web.Application(middlewares=[bot_telemetry_middleware, aiohttp_error_middleware])
     app.router.add_post("/api/messages", messages)
-    return APP
+    return app
 
 if __name__ == "__main__":
     app = init_func(None)
