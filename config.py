@@ -10,8 +10,8 @@ class DefaultConfig:
     """Configuration for the bot."""
 
     PORT = 8000
-    APP_ID = "2feaa656-47a8-42c8-b2da-9d4fa467d2ba"
-    APP_PASSWORD = "dzh8Q~8~UUQlQ2ka5PuMmcq2SjchCG1Khc9v1bfo"
+    APP_ID = "930e7336-3faf-428e-afd4-8bf6381edc30"
+    APP_PASSWORD = "U7-8Q~EnUmbE8_mP2enUdjoeRB5ivpz4wwJFfcqr"
     LUIS_APP_ID = "45c98dc5-6ad6-4693-a51f-89d28ffc032a"
     LUIS_API_KEY = "315164affd6148cb9530f673610b291e"
     LUIS_API_HOST_NAME = "https://p10luisapps-authoring.cognitiveservices.azure.com/"
