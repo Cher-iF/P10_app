@@ -30,6 +30,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
+      # Optional : Add step to run tests here (Pytest, Django test suits , ets)
+      # Run unit tests  for the bot
+      - name: Run tests
+        run : python -m unittest tests/test_bot.py
+        
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
       - name: Upload artifact for deployment jobs
