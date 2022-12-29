@@ -34,6 +34,9 @@ from bots import DialogAndWelcomeBot
 from adapter_with_error_handler import AdapterWithErrorHandler
 from flight_booking_recognizer import FlightBookingRecognizer
 
+import logging
+from opencensus.ext.azure.log_exporter import AzureLogHandler
+
 CONFIG = DefaultConfig()
 
 # Create adapter.
